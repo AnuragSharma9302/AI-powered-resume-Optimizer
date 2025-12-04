@@ -1,8 +1,9 @@
+
+
+**AI-powered resume optimizer**
+
 # Craftify
-
-**AI-powered resume optimizer + job matcher**
-
-CareerCraft AI is an easy-to-run Streamlit app that helps job seekers optimize resumes for Applicant Tracking Systems (ATS), tailor resumes to specific job descriptions, and discover personalized job suggestions. Built for practical results — not fluff.
+tt is an AI-powered platform designed to assist job seekers in optimizing their resumes for Applicant Tracking Systems (ATS) and tailoring them for specific job descriptions. It also includes features for job searching and provides personalized job suggestions.
 
 ---
 
@@ -103,14 +104,14 @@ Open the URL printed in your terminal (usually [http://localhost:8501](http://lo
 2. **ATS Scanner:** Go to the ATS Scanner page → upload your resume (PDF or DOCX) → press `Analyze` → view score and recommendations.
 3. **Resume Tailoring:** Paste the job description → `Tailor Resume` → see suggested bullet edits and keywords to add.
 4. **Keyword View:** Compare resume vs JD — overlapping keywords are highlighted.
-
+5. **Job Suggestions:** Use the job search feature (if enabled) to see tailored job links; follow the link to apply on the original site.
 
 ---
 
 ## Recommended file formats
 
 * Resumes: PDF or DOCX
-* Job Descriptions: plain text or pasted HTML
+* Job Descriptions: PDF or DOCX
 
 ---
 
@@ -123,13 +124,7 @@ Open the URL printed in your terminal (usually [http://localhost:8501](http://lo
 
 ---
 
-## Troubleshooting
 
-* **NLP models not loading:** Make sure `spacy` model is downloaded (e.g., `python -m spacy download en_core_web_sm`).
-* **Firebase auth failing:** Double-check `.env` values and enable Authentication in your Firebase console.
-* **Streamlit dependency errors:** Ensure Python version is compatible (recommend 3.9–3.11) and reinstall `pip install -r requirements.txt`.
-
----
 
 ## Sample `requirements.txt` (starter)
 
@@ -153,17 +148,6 @@ python-docx
 * Resume version history + export tailored resume as new PDF.
 * Automated cover letter generator.
 * CLI tool to bulk-tailor resumes for many JDs.
-
----
-
-## Contribution
-
-PRs welcome. If you want to contribute:
-
-1. Fork the repo
-2. Create a feature branch: `git checkout -b feat/your-feature`
-3. Commit and push
-4. Open a PR with a clear description and screenshots
 
 ---
 
