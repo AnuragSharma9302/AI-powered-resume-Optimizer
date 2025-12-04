@@ -103,7 +103,7 @@ Open the URL printed in your terminal (usually [http://localhost:8501](http://lo
 2. **ATS Scanner:** Go to the ATS Scanner page → upload your resume (PDF or DOCX) → press `Analyze` → view score and recommendations.
 3. **Resume Tailoring:** Paste the job description → `Tailor Resume` → see suggested bullet edits and keywords to add.
 4. **Keyword View:** Compare resume vs JD — overlapping keywords are highlighted.
-5. **Job Suggestions:** Use the job search feature (if enabled) to see tailored job links; follow the link to apply on the original site.
+
 
 ---
 
@@ -166,6 +166,7 @@ PRs welcome. If you want to contribute:
 4. Open a PR with a clear description and screenshots
 
 ---
+
 
 
 
